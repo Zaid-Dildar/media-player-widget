@@ -1,0 +1,39 @@
+{
+  "name": "media-player-widget",
+  "version": "1.0.0",
+  "description": "A widget which can be used in your web applications to display a playlist of songs and play any one of them.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaid-Dildar/media-player-widget.git"
+  },
+  "keywords": [
+    "media",
+    "player",
+    "widget"
+  ],
+  "author": "Muhammad Zaid Dildar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zaid-Dildar/media-player-widget/issues"
+  },
+  "homepage": "https://github.com/Zaid-Dildar/media-player-widget#readme",
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-draggable": "^4.4.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.8",
+    "@babel/preset-env": "^7.24.8",
+    "@babel/preset-react": "^7.24.7",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
